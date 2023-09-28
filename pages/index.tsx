@@ -1,13 +1,18 @@
 import tw from 'tailwind-styled-components';
 import Head from 'next/head';
-import {
-  ContextMenu,
-  ContextMenuContent,
-  ContextMenuItem,
-  ContextMenuTrigger,
-} from '@/components/ui/context-menu';
+import { useStore } from '@/store';
+import { LanguageEnum } from '@/types/language';
 
 export default function Home() {
+  const [pageText] = useStore.pageText();
+  const [language, updateLanguage] = useStore.language();
+
+  const changeLanguage = () => {
+    updateLanguage((draftRef) => {
+      draftRef.current = LanguageEnum.Chinese;
+    })
+  }
+
   return (
     <MainSC>
       <Head>
@@ -21,15 +26,10 @@ export default function Home() {
           content="black-translucent"
         />
       </Head>
-      <ContextMenu>
-        <ContextMenuTrigger>Right click</ContextMenuTrigger>
-        <ContextMenuContent>
-          <ContextMenuItem>Profile</ContextMenuItem>
-          <ContextMenuItem>Billing</ContextMenuItem>
-          <ContextMenuItem>Team</ContextMenuItem>
-          <ContextMenuItem>Subscription</ContextMenuItem>
-        </ContextMenuContent>
-      </ContextMenu>
+      <div>
+        {pageText.stories[language]}
+      </div>
+      <button onClick={changeLanguage}>click</button>
     </MainSC>
   );
 }

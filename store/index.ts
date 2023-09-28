@@ -1,16 +1,14 @@
 import { PageText } from '@/PageText';
 import { globalState } from '@/hooks/useStore/globalState';
+import {LanguageEnum} from '@/types/language'
+import {PageTextType} from '@/types/pageText'
 
-/**
- * @typedef {Object} GlobalStateType
- *
- * @property {'English', 'Chinese', 'Arabic'} language
- * @property {Object} pageText
- */
 
-/** @type {GlobalStateType} */
-const initState = {
-  language: 'English',
+const initState: {
+  language: LanguageEnum,
+  pageText: PageTextType,
+} = {
+  language: LanguageEnum.English,
   pageText: PageText,
 };
 

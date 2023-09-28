@@ -1,4 +1,7 @@
-export const PageText = {
+import {PageTextType} from '@/types/pageText'
+
+
+export const PageText:PageTextType = {
   stories: {
     English: 'STORIES',
     Chinese: '品牌故事',

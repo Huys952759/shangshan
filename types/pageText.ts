@@ -1,5 +1,8 @@
-import {LanguageType} from '@/types/language'
+import { LanguageType } from '@/types/language';
 export interface PageTextType {
-    stories: LanguageType,
-  }
-  
+  about: LanguageType;
+  ['about.team.title']: LanguageType;
+  ['about.team.content']: LanguageType;
+  ['about.company.title']: LanguageType;
+  ['about.company.content']: LanguageType;
+}

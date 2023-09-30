@@ -1,0 +1,194 @@
+[
+    {
+        "name": {
+            "English": "",
+            "Chinese": "新品上新",
+            "Arabic": ""
+        },
+        "path": "new"
+    },
+    {
+        "name": {
+            "English": "",
+            "Chinese": "秀场",
+            "Arabic": ""
+        },
+        "path": "show"
+    },
+    {
+        "name": {
+            "English": "",
+            "Chinese": "关于我们",
+            "Arabic": ""
+        },
+        "path": "about"
+    },
+    {
+        "name": {
+            "English": "",
+            "Chinese": "高光时刻",
+            "Arabic": ""
+        },
+        "path": "highlight"
+    },
+    {
+        "name": {
+            "English": "",
+            "Chinese": "设计师介绍",
+            "Arabic": ""
+        },
+        "path": "designer"
+    },
+    {
+        "name": {
+            "English": "",
+            "Chinese": "我们的荣耀",
+            "Arabic": ""
+        },
+        "path": "honor"
+    },
+    {
+        "name": {
+            "English": "",
+            "Chinese": "门店相关",
+            "Arabic": ""
+        },
+        "path": "store"
+    },
+    {
+        "name": {
+            "English": "Dress",
+            "Chinese": "衣裙",
+            "Arabic": ""
+        },
+        "path": "new/dress"
+    },
+    {
+        "name": {
+            "English": "Skirt",
+            "Chinese": "半裙",
+            "Arabic": ""
+        },
+        "path": "new/skirt"
+    },
+    {
+        "name": {
+            "English": "Tops",
+            "Chinese": "上衣",
+            "Arabic": ""
+        },
+        "path": "new/tops"
+    },
+    {
+        "name": {
+            "English": "Trousers",
+            "Chinese": "裤装",
+            "Arabic": ""
+        },
+        "path": "new/trousers"
+    },
+    {
+        "name": {
+            "English": "Shorts",
+            "Chinese": "短裤",
+            "Arabic": ""
+        },
+        "path": "new/shorts"
+    },
+    {
+        "name": {
+            "English": "Overcoat",
+            "Chinese": "外套",
+            "Arabic": ""
+        },
+        "path": "new/overcoat"
+    },
+    {
+        "name": {
+            "English": "Down Jacket",
+            "Chinese": "羽绒服",
+            "Arabic": ""
+        },
+        "path": "new/downjacket"
+    },
+    {
+        "name": {
+            "English": "Fur",
+            "Chinese": "皮草",
+            "Arabic": ""
+        },
+        "path": "new/fur"
+    },
+    {
+        "name": {
+            "English": "Leather Clothing",
+            "Chinese": "皮革服饰",
+            "Arabic": ""
+        },
+        "path": "new/leatherclothing"
+    },
+    {
+        "name": {
+            "English": "Knitted Items",
+            "Chinese": "针织单品",
+            "Arabic": ""
+        },
+        "path": "new/knitteditems"
+    },
+    {
+        "name": {
+            "English": "Knitted Items",
+            "Chinese": "**2024SS “溯源”系列**回溯自然 探寻本归",
+            "Arabic": ""
+        },
+        "path": "show/traceability"
+    },
+    {
+        "name": {
+            "English": "Knitted Items",
+            "Chinese": "**2023SS “冀”系列** 回溯自然 探寻本归",
+            "Arabic": ""
+        },
+        "path": "show/ji"
+    },
+    {
+        "name": {
+            "English": "Knitted Items",
+            "Chinese": "**2023AW “聆听”系列** 回溯自然 探寻本归",
+            "Arabic": ""
+        },
+        "path": "show/listen"
+    },
+    {
+        "name": {
+            "English": "Knitted Items",
+            "Chinese": "**2022SS “翎”系列** 回溯自然 探寻本归",
+            "Arabic": ""
+        },
+        "path": "show/ling"
+    },
+    {
+        "name": {
+            "English": "Knitted Items",
+            "Chinese": "**2022AW “生”系列** 回溯自然 探寻本归",
+            "Arabic": ""
+        },
+        "path": "show/live"
+    },
+    {
+        "name": {
+            "English": "Knitted Items",
+            "Chinese": "**2021SS “倾城”系列** 回溯自然 探寻本归",
+            "Arabic": ""
+        },
+        "path": "show/stunning"
+    },
+    {
+        "name": {
+            "English": "Knitted Items",
+            "Chinese": "**2021AW “阿拉善”系列** 回溯自然 探寻本归",
+            "Arabic": ""
+        },
+        "path": "show/alashan"
+    }
+]

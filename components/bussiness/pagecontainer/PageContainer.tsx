@@ -2,9 +2,8 @@ import tw from 'tailwind-styled-components';
 import Head from 'next/head';
 import Header from '@/components/bussiness/header/Header';
 import { ReactNode } from 'react';
-import { PageText } from '@/PageText';
 import { useStore } from '@/store';
-import Image from 'next/image';
+import Footer from '../footer';
 
 interface Props {
   title: string;
@@ -33,37 +32,7 @@ export default function PageContainer({
       <MainTW>
         <Header></Header>
         {children}
-        <div className="footer">
-          <div className="contact-detail">
-            {PageText.contact[language]}Szquanshun@outlook.com
-          </div>
-          <div className="follow-us">
-            <div>{PageText.follow[language]}</div>
-            <div className="icon-container">
-              <Image
-                src="/Instagram.png"
-                alt=""
-                width={24}
-                height={24}
-                className="icon-img"
-              ></Image>
-              <Image
-                src="/Tictok.png"
-                alt=""
-                width={24}
-                height={24}
-                className="icon-img"
-              ></Image>
-              <Image
-                src="/xiaohongshu.svg"
-                alt=""
-                width={24}
-                height={24}
-                className="icon-img"
-              ></Image>
-            </div>
-          </div>
-        </div>
+        <Footer></Footer>
       </MainTW>
     </>
   );

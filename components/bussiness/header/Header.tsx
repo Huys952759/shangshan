@@ -40,13 +40,15 @@ export default function Header() {
   return (
     <ContainerTW>
       <LogoTW>
-        <Image
-          src="/logo.png"
-          alt="logo"
-          width={400}
-          height={80}
-          className="w-[200px] h-auto ml-auto mr-auto"
-        />
+        <Link href='/'>
+          <Image
+            src="/logo.png"
+            alt="logo"
+            width={400}
+            height={80}
+            className="w-[200px] h-auto ml-auto mr-auto"
+          />
+        </Link>
       </LogoTW>
       <SecondTW>
         <NavigationMenu>

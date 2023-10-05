@@ -1,0 +1,26 @@
+
+
+.store-image-container {
+    padding: 30px;
+}
+
+.store-banner {
+    width: calc(100vw - 60px);
+    height: 600px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.store-image-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.store-image-item img {
+    flex-grow: 1;
+    height: auto;
+}
+
+.store-image-item img:not(:first-child) {
+    margin-left: 10px;
+}

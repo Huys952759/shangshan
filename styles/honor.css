@@ -1,0 +1,28 @@
+.honor-image-container {
+    margin-top: 20px;
+}
+
+.honor-image-item {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.honor-image {
+    background-color: #F0F0F0;
+}
+.honor-title {
+    font-size: 18px;
+    font-family: STSongti-SC-Black, STSongti-SC;
+    font-weight: 900;
+    color: #000000;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.honor-subtitle {
+    font-size: 14px;
+    font-family: STSongti-SC-Regular, STSongti-SC;
+    font-weight: 400;
+    color: #000000;
+    line-height: 20px;
+}

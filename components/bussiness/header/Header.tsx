@@ -2,8 +2,6 @@ import * as React from 'react';
 import Link from 'next/link';
 import tw from 'tailwind-styled-components';
 import Image from 'next/image';
-
-import { cn } from '@/lib/utils';
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -39,15 +37,17 @@ export default function Header() {
 
   return (
     <ContainerTW>
-      <LogoTW>
-        <Image
-          src="/logo.png"
-          alt="logo"
-          width={400}
-          height={80}
-          className="w-[200px] h-auto ml-auto mr-auto"
-        />
-      </LogoTW>
+      <Link href="/">
+        <LogoTW>
+          <Image
+            src="/logo.png"
+            alt="logo"
+            width={400}
+            height={80}
+            className="w-[200px] h-auto ml-auto mr-auto"
+          />
+        </LogoTW>
+      </Link>
       <SecondTW>
         <NavigationMenu>
           <NavigationMenuList>

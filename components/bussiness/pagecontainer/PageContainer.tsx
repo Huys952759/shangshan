@@ -15,7 +15,6 @@ export default function PageContainer({
   children,
 }: Props) {
   const [language] = useStore.language();
-  console.log(children);
 
   return (
     <>
@@ -31,7 +30,7 @@ export default function PageContainer({
         />
       </Head>
       <MainTW>
-        <Header></Header>
+        <Header />
         {children}
         <div className="footer">
           <div className="contact-detail">
@@ -71,5 +70,4 @@ export default function PageContainer({
 
 const MainTW = tw.main`
 min-h-screen
-w-screen
 `;

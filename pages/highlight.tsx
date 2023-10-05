@@ -1,13 +1,13 @@
 import tw from 'tailwind-styled-components';
 import PageContainer from '@/components/bussiness/pagecontainer/PageContainer';
 import { useStore } from '@/store';
+import { PageText } from '@/PageText';
 
 export default function Home() {
   const [language] = useStore.language();
-  const [pageText] = useStore.pageText();
 
   return (
-    <PageContainer title={pageText.about[language]}>
+    <PageContainer title={PageText.about[language]}>
       <ContentTW>
         <FirstLineTW>
           <div className="flex-2 relative">

@@ -31,21 +31,38 @@ export const PageText: PageTextType = {
   slogan: {
     English: 'Follow Nature, Enrich Life',
     Chinese: '循自然之道 成生命之美',
-    Arabic: ''
+    Arabic: '',
   },
   contact: {
     English: 'Contact Us: ',
     Chinese: '联系我们: ',
-    Arabic: ''
+    Arabic: '',
   },
   follow: {
     English: 'Follow us on: ',
     Chinese: '关注我们: ',
-    Arabic: ''
+    Arabic: '',
   },
   smallTitle: {
     English: 'Back to nature, Explore inner heart',
     Chinese: '回溯自然  探寻本归',
-    Arabic: ''
-  }
+    Arabic: '',
+  },
+  ['designer.name']: {
+    English: 'SunSun',
+    Chinese: '姗姗',
+    Arabic: 'صن صن',
+  },
+  ['designer.introduction']: {
+    English: `with 12 years of experience in innovative design and brand positioning for international luxury brands and well-known domestic and foreign fashion brands, along with the analysis and integration of their business models. Possessing rich brand management thinking, commercial value thinking, and buyer integration thinking, SUNSUN is one of the designers in the clothing and apparel industry with the most innovative and commercial combination. In 2018, the VAN SUNSUN brand was established, with SUNSUN serving as the current brand design director. In 2022, the Meina Baichuan brand was established, with SUNSUN also serving as the current brand design director.`,
+    Chinese:
+      '12年从事于国际奢侈品牌、国内外知名品牌时装设计与品牌定位的创新与商业模式的分析整合工作。具有丰富的品牌管理思维、商业价值思维、买手整合思维，是服装与服饰行业中最具创新与商业结合的设计师之一。2018年于中国深圳成立了VAN SUNSUN上善牌，现任品牌设计总监。2022年创立BAI CHUAN百川品牌，并担任品牌设计总监',
+    Arabic: `ج
+    ‎ الأعمال في تصميم الأزياء ووضع العلامات التجارية للشركات التجارية المحلية والأجنبية منذ عام ٢٠١٢.  
+    ‎بفضل تفكيرها الغني في إدارة العلامات التجارية، وقيمة الأعمال، والتكامل مع المشتري، اصبحت أحد أكثر المصممين ابتكارًا وتجاريًا في صناعة الملابس.  في عام 2018، تم إنشاء العلامة التجارية VAN SUNSUNSUN
+    
+    ‎وتعمل الان صن صن كمديرة لهذه العلامة التجارية
+    
+    وفي عام ٢٠٢٢ تم تأسيس العلامة التجارية هاينا haina حيث تعمل صن صن أيضا كمديرة لهذه العلامة التجارية.`,
+  },
 };

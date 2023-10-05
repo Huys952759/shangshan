@@ -8,5 +8,7 @@ export interface PageTextType {
   slogan: LanguageType;
   contact: LanguageType;
   follow: LanguageType;
-  smallTitle: LanguageType
+  smallTitle: LanguageType;
+  ['designer.name']: LanguageType;
+  ['designer.introduction']: LanguageType;
 }

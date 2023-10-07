@@ -143,6 +143,19 @@ export const ImageList: ImageType[] = [
             Chinese: '荣获优秀供应商奖',
             Arabic: ''
         }
+    },
+    {
+        url: '11.png',
+        title: {
+            English: 'Member Unit of Shenzhen Garment Industry Association',
+            Chinese: '深圳市服装行业协会会员单位',
+            Arabic: ''
+        },
+        subtitle: {
+            English: '',
+            Chinese: '',
+            Arabic: ''
+        }
     }
 ]
 export default function Honor() {

@@ -5,6 +5,11 @@
 .honor-image-item {
     margin-left: 30px;
     margin-top: 30px;
+    width: 300px;
+}
+
+.honor-image-item img {
+    height: 300px;
 }
 .honor-image {
     background-color: #F0F0F0;

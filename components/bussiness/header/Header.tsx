@@ -190,9 +190,9 @@ const NewContent = ({ items }) => {
     <div className="w-[calc(100vw-60px)] p-8">
       <ul className="grid grid-cols-2 w-[200px] gap-4">
         {items.map((item) => (
-          <li key={item.path} className="cursor-pointer">
-            {item.name[language]}
-          </li>
+          <Link key={item.path} href={`/category/${item.path}`}>
+            <li className="cursor-pointer">{item.name[language]}</li>
+          </Link>
         ))}
       </ul>
       <div></div>

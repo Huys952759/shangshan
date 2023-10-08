@@ -7,23 +7,24 @@ export const PageText: PageTextType = {
     Arabic: '',
   },
   ['about.team.title']: {
-    English: '',
+    English: 'Team Introduction:',
     Chinese: '团队介绍：',
     Arabic: '',
   },
   ['about.team.content']: {
-    English: '',
+    English: `’SUN' symbolizes 'the most'. VAN SUNSUN signifies the utmost good, with the virtuous people being like water. Water is good at nourishing everything without competing with anything, reflecting the core values of sustainable development embodied by the VAN SUNSUN brand. The products are made from natural and pure materials such as silk and cashmere; the main color palette is inspired by the pure and soft hues of the ocean, blue sky, and all things natural; the foundation is a meticulous craftsman's spirit. Committed to showcasing the perfect fusion of high-end pure natural quality fabrics and fine craftsmanship. It defines a new style of dressing that is emotional, luxurious, and imbued with an ethereal aura.`,
     Chinese:
       '上善有一支年轻、高效、专业的设计开发队伍。共有开发同事50人，平均年龄29岁，专业科班出生有16人，拥有裁剪、工艺、生产等各部门丰富的专业经验。深擅时装流行趋势，对色彩、流行元素、面料有深刻的把握度。',
     Arabic: '',
   },
   ['about.company.title']: {
-    English: '',
+    English: 'Comapny Introduction:',
     Chinese: '企业介绍：',
     Arabic: '',
   },
   ['about.company.content']: {
-    English: '',
+    English:
+      'VAN SUNSUN has a young, efficient, and professional design and development team. The team consists of 50 development colleagues with an average age of 29 years old. Among them, 16 members have a professional background in fashion design. The team has rich professional experience in areas such as pattern cutting, craftsmanship, and production. They are well-versed in fashion trends and have a deep understanding of color, popular elements, and fabrics.',
     Chinese:
       '【上善】上，最的意思。上善即最善，最善的人好像水一样。水善于滋润万物而不与万物相争，体现上善品牌可持续发展的核心价值观。作品以蚕丝、羊绒等天然纯粹的产物为材质；以海洋、蓝天、自然万物纯洁柔美色彩为主调；以一丝不苟的工匠精神为基石。致力于体现在高端纯天然优质面料与精细工艺的完美融合。定义了以感性、奢雅、灵魂系仙气的新贵着装风格。',
     Arabic: '',

@@ -36,7 +36,7 @@ export default function Footer() {
             width={24}
             height={24}
             className="icon-img"
-            onClick={() => { window.open('https://www.douyin.com/user/MS4wLjABAAAAzcGPxQUnhLWtjfmt5cddprnSuPj4Vfbp3iHwgdIS1cEoRgXmlH48CwQ279wBe-Cd') }}
+            onClick={() => { window.open('https://www.xiaohongshu.com/user/profile/5f9de97700000000010051d7?exSource=https://www.xiaohongshu.com/search_result?keyword=1056706262&source=web_explore_feed') }}
           ></Image>
         </div>
       </div>

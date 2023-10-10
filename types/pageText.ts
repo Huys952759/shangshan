@@ -11,4 +11,7 @@ export interface PageTextType {
   smallTitle: LanguageType;
   ['designer.name']: LanguageType;
   ['designer.introduction']: LanguageType;
+  material: LanguageType;
+  description: LanguageType;
+  maintenance: LanguageType;
 }

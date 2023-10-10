@@ -16,7 +16,9 @@ export default function Home() {
           <div className="text-[26px] font-bold mb-5">
             {PageText['designer.name'][language]}
           </div>
-          <div>{PageText['designer.introduction'][language]}</div>
+          <div className="max-w-[600px]">
+            {PageText['designer.introduction'][language]}
+          </div>
         </div>
       </ContentTW>
     </PageContainer>

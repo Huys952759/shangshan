@@ -245,7 +245,7 @@ const ShowContent = ({ items }) => {
   );
 };
 
-const ContainerTW = tw.div`
+const ContainerTW = tw.header`
   w-full
   h-fit
   bg-white

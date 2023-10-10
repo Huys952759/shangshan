@@ -28,15 +28,21 @@ export default function PageContainer({
           content="black-translucent"
         />
       </Head>
-      <MainTW>
+      <ContainerTW>
         <Header />
-        {children}
+        <MainTW>{children}</MainTW>
         <Footer></Footer>
-      </MainTW>
+      </ContainerTW>
     </>
   );
 }
 
-const MainTW = tw.main`
+const ContainerTW = tw.div`
 min-h-screen
+flex
+flex-col
+`;
+
+const MainTW = tw.main`
+flex-1
 `;

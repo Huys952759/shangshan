@@ -66,4 +66,19 @@ export const PageText: PageTextType = {
     
     وفي عام ٢٠٢٢ تم تأسيس العلامة التجارية هاينا haina حيث تعمل صن صن أيضا كمديرة لهذه العلامة التجارية.`,
   },
+  material: {
+    English: 'Materials',
+    Chinese: '材质',
+    Arabic: '',
+  },
+  description: {
+    English: 'Description',
+    Chinese: '描述',
+    Arabic: '',
+  },
+  maintenance: {
+    English: 'Care',
+    Chinese: '保养',
+    Arabic: '',
+  },
 };

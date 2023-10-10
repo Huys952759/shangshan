@@ -71,6 +71,10 @@ line-height: 36px;
 .icon-container {
     display: flex;
 }
+
+.icon-container img {
+    cursor: pointer;
+}
 .icon-img {
     margin-left: 8px;
 }

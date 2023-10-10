@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="contact-detail">
-        {pageText.contact[language]}Szquanshun@outlook.com
+        {pageText.contact[language]}VANSUNSUN@outlook.com
       </div>
       <div className="follow-us">
         <div>{pageText.follow[language]}</div>
@@ -19,6 +19,8 @@ export default function Footer() {
             width={24}
             height={24}
             className="icon-img"
+            onClick={() => { window.open('https://www.instagram.com/vansun.sun/') }}
+
           ></Image>
           <Image
             src="/Tictok.png"
@@ -26,6 +28,7 @@ export default function Footer() {
             width={24}
             height={24}
             className="icon-img"
+            onClick={() => { window.open('https://www.douyin.com/user/MS4wLjABAAAAzcGPxQUnhLWtjfmt5cddprnSuPj4Vfbp3iHwgdIS1cEoRgXmlH48CwQ279wBe-Cd') }}
           ></Image>
           <Image
             src="/xiaohongshu.svg"
@@ -33,6 +36,7 @@ export default function Footer() {
             width={24}
             height={24}
             className="icon-img"
+            onClick={() => { window.open('https://www.douyin.com/user/MS4wLjABAAAAzcGPxQUnhLWtjfmt5cddprnSuPj4Vfbp3iHwgdIS1cEoRgXmlH48CwQ279wBe-Cd') }}
           ></Image>
         </div>
       </div>

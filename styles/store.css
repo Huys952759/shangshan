@@ -21,6 +21,16 @@
     height: auto;
 }
 
+.store-address {
+    display: flex;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.store-address-label {
+    margin-right: 8px;
+}
+
 .store-image-item img:not(:first-child) {
     margin-left: 10px;
 }

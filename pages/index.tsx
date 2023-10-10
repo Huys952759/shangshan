@@ -9,7 +9,7 @@ export default function Home() {
     <PageContainer title="shanshan">
       <div className="pt-6">
         <div className="cover-image">
-          <Image src="/cover-image.jpg" alt="" fill></Image>
+          <Image src="/cover-image.jpg" alt="" width={1920} height={1080}></Image>
           <div className="image-title">
             <div className="large-title">Spring / Summer 2024</div>
             <div className="small-title">{PageText.smallTitle[language]}</div>

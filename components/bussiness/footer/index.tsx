@@ -8,10 +8,14 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="contact-detail">
-        {pageText.contact[language]}VANSUNSUN@outlook.com
+        <div className='contact-detail-label'>
+        {pageText.contact[language]}
+        </div>
+        <div className='contact-detail-email'> VANSUNSUN@outlook.com</div>
       </div>
+      <div className='footer-divider'></div>
       <div className="follow-us">
-        <div>{pageText.follow[language]}</div>
+        <div className='follow-us-label'>{pageText.follow[language]}</div>
         <div className="icon-container">
           <Image
             src="/Instagram.png"

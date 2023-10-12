@@ -44,8 +44,9 @@ line-height: 36px;
     display: flex;
     justify-content: center;
     margin-top: 95px;
-
 }
+
+
 .slogan {
     height: 32px;
     font-size: 28px;
@@ -53,6 +54,7 @@ line-height: 36px;
     color: #000000;
     line-height: 32px;
     letter-spacing: 15px;
+    white-space: nowrap;
 }
 
 .footer {
@@ -61,6 +63,11 @@ line-height: 36px;
     margin-top: 80px;
     margin-bottom: 40px;
     flex-shrink: 0;
+    font-family: Baskerville;
+}
+
+.contact-detail {
+    display: flex;
 }
 
 .follow-us {
@@ -77,4 +84,65 @@ line-height: 36px;
 }
 .icon-img {
     margin-left: 8px;
+}
+
+@media (max-width: 768px) {
+    .slogan-container {
+        padding: 0 20px;
+        margin-top: 30px;
+        display: block;
+    }
+
+    .slogan {
+        font-size: 20px;
+        letter-spacing: 9px;
+
+    }
+    
+    .footer {
+        display: block;
+        margin-top: 30px;
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    .contact-detail {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact-detail-label {
+        margin-bottom: 20px;
+    }
+
+    .footer-divider {
+        border-bottom: 1px solid #000000;
+        width: calc(100vw - 40px);
+        margin: 30px 0;
+    }
+
+    .follow-us {
+        display: block;
+        margin-left: 00px;
+    }
+
+    .follow-us-label {
+        margin-bottom: 20px;
+    }
+
+    .icon-container .icon-img {
+        margin-left: 15px;
+    }
+    .icon-container .icon-img:first-child {
+        margin-left: 0px;
+    }
+
+
+    .cover-image {
+        width: 100%;
+        position: relative;
+        box-sizing: border-box;
+        margin-left: 0px;
+    } 
+
 }

@@ -66,6 +66,17 @@
 
     .store-address {
         padding: 20px;
+        flex-direction: column;
+    }
+
+    .store-address-name {
+       
+    }
+
+    .store-address-name::before {
+        content: '\2022'; /* 使用 Unicode 中的圆点符号 */
+        color: black; /* 设置颜色为黑色 */
+        margin-right: 0.5em; /* 可选：为了增加圆点和文本之间的间距 */
     }
     
 }

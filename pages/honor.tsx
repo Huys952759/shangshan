@@ -19,12 +19,12 @@ export const ImageList: ImageType[] = [
         title: {
             English: 'FASHION SHENZHEN 2020 AUTUMN EXHIBITION',
             Chinese: '2020年时尚深圳展秋季展',
-            Arabic: ''
+            Arabic: 'الجوائز الحصلون عليها'
         },
         subtitle: {
             English: 'Most Stylish Designer Award',
             Chinese: '荣获最具风格奖',
-            Arabic: ''
+            Arabic: 'معرض خريف شنجن للأزياء 2020، جائزة المصمم الأكثر أناقة'
         }
     },
     {
@@ -32,12 +32,12 @@ export const ImageList: ImageType[] = [
         title: {
             English: 'Fashion Source SHENZHEN/Original Design Fashion week',
             Chinese: '2020年第7届深圳原创设计时装周',
-            Arabic: ''
+            Arabic: 'شنجن لعام 2020'
         },
         subtitle: {
             English: 'Won the Top10 Original Designer Award in 2020',
             Chinese: '荣获十佳原创设计师奖',
-            Arabic: ''
+            Arabic: 'حاصلون على جائزة افضل عشرة مصممين مبدعين في اسبوع اللتصميم الابداعي السابع في '
         }
     },
     {
@@ -45,12 +45,12 @@ export const ImageList: ImageType[] = [
         title: {
             English: '2021 CHINA INTERNATIONAL FASHION FAIR(MARCHEDTION)',
             Chinese: '2021年中国国际服装服饰博览会(春季)',
-            Arabic: ''
+            Arabic: 'اكثر احتمالا بالنجاح سوقيًا'
         },
         subtitle: {
             English: 'Most Market Potential Award',
             Chinese: '荣获最具市场潜力奖',
-            Arabic: ''
+            Arabic: 'حاصلون على جائزة افضل مشروع '
         }
     },
     {
@@ -58,12 +58,12 @@ export const ImageList: ImageType[] = [
         title: {
             English: '2021 FASHION SHENZHEN/FASHION SHENZHEN·AWARDS',
             Chinese: '2021年时尚深圳展',
-            Arabic: ''
+            Arabic: '2021 في معرض شنجن للأزياء '
         },
         subtitle: {
             English: 'Won the Top10 Designers',
             Chinese: '荣获十佳设计师奖',
-            Arabic: ''
+            Arabic: 'حاصلون على جائزة افضل عشرة مصممين '
         }
     },
     {
@@ -71,12 +71,13 @@ export const ImageList: ImageType[] = [
         title: {
             English: '2021 ORIGINAL DESIGN FASHION WEEK',
             Chinese: '2021年深圳原创时装周',
-            Arabic: ''
+            Arabic: 'حاصلون على جائزة افضل افضل عشرة مصميين 2021'
+
         },
         subtitle: {
             English: 'Won the Top10 Original Designer Award',
             Chinese: '荣获十佳原创设计师奖',
-            Arabic: ''
+            Arabic: 'في اسبوع الازياء للمبدعيين شنجن'
         }
     },
     {
@@ -84,12 +85,12 @@ export const ImageList: ImageType[] = [
         title: {
             English: '2022',
             Chinese: '2022年',
-            Arabic: ''
+            Arabic: '2022'
         },
         subtitle: {
             English: '“Fairness,integrity,and safe consumption”clothing brand ',
             Chinese: '荣获年度”公平守正,安心消费”服装品牌',
-            Arabic: ''
+            Arabic: 'حاصلون على جائزة ماركة الملابس السنوية للاستهلاك الامن والعادل 2022'
         }
     },
     {
@@ -97,12 +98,12 @@ export const ImageList: ImageType[] = [
         title: {
             English: '2022 Lyshows Ceremony',
             Chinese: '2022年荔秀盛典',
-            Arabic: ''
+            Arabic: '2022 علامات تجارية مبتكرة في حفل لي شو'
         },
         subtitle: {
             English: 'Won the Top10 Original Designer Award',
             Chinese: '荣获十佳原创设计师品牌',
-            Arabic: ''
+            Arabic: 'حصلون على جائزة افضل عشرة مصممين '
         }
     },
     {
@@ -115,7 +116,7 @@ export const ImageList: ImageType[] = [
         subtitle: {
             English: 'Won the Fashion Pioneer Award',
             Chinese: '荣获时尚先锋奖',
-            Arabic: ''
+            Arabic: 'حاصلون على جائزتي رواد الموضة في تمكين التكنولوجيا وأزياء منطقة نانشان من حكومة نانشان'
         }
     },
     {
@@ -128,7 +129,7 @@ export const ImageList: ImageType[] = [
         subtitle: {
             English: 'Won the Original Design Brand Award',
             Chinese: '荣获原创设计品牌奖',
-            Arabic: ''
+            Arabic: 'حاصلون على جائزة العلامة التجارية للتصميم المبتكر في معرض الملابس الغربية 2023'
         }
     },
     {
@@ -141,7 +142,7 @@ export const ImageList: ImageType[] = [
         subtitle: {
             English: 'Won the Excellent Supplier Award',
             Chinese: '荣获优秀供应商奖',
-            Arabic: ''
+            Arabic: 'حاصلون على جائزة المورد المتميز في معرض الملابس الغربية 2023'
         }
     },
     {
@@ -149,7 +150,7 @@ export const ImageList: ImageType[] = [
         title: {
             English: 'Member Unit of Shenzhen Garment Industry Association',
             Chinese: '深圳市服装行业协会会员单位',
-            Arabic: ''
+            Arabic: 'عضو في جمعية صناعة الملابس في مدينة شنجن'
         },
         subtitle: {
             English: '',

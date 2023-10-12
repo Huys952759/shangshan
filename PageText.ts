@@ -35,14 +35,14 @@ export const PageText: PageTextType = {
     Arabic: '',
   },
   contact: {
-    English: 'Contact Us: ',
-    Chinese: '联系我们: ',
-    Arabic: '',
+    English: 'Contact Us',
+    Chinese: '联系我们',
+    Arabic: 'اتصل بنا',
   },
   follow: {
-    English: 'Follow us on: ',
-    Chinese: '关注我们: ',
-    Arabic: '',
+    English: 'Follow us on',
+    Chinese: '关注我们',
+    Arabic: 'تابعنا',
   },
   smallTitle: {
     English: 'Back to nature, Explore inner heart',

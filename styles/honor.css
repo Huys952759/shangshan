@@ -36,4 +36,7 @@
     .honor-image-item {
         margin: 10px 20px;
     }
+    .honor-image-container  {
+        justify-content: center;
+    }
 }

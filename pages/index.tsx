@@ -20,8 +20,8 @@ export default function Home() {
             className='cover-image-phone'
             src="/cover-image-phone.jpg"
             alt=""
-            width={1920}
-            height={1080}
+            width={640}
+            height={954}
           ></Image>
           <div className="image-title">
             <div className="large-title">Spring / Summer 2024</div>

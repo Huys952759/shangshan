@@ -14,7 +14,7 @@ import CloseIcon from './icon/CloseIcon';
 
 const regex = /\*\*(.*?)\*\*|[^*]+/g;
 
-export default function MobileHeader() {
+export default function MobileHeader({ isFixed = false }) {
   const [language, updateLanguage] = useStore.language();
   const [categotiesTree, setCategotiesTree] = useState(() =>
     formTreeData(HeaderConfig),
@@ -22,7 +22,7 @@ export default function MobileHeader() {
   const [open, setOpen] = useState(false);
 
   return (
-    <ContainerTW>
+    <ContainerTW isFixed={isFixed}>
       <TopTW visible={!open}>
         <button
           className="btn btn-ghost p-0"
@@ -117,22 +117,23 @@ const FileTree = ({ fileTree }) => {
 
   return (
     <li className="font-extrabold text-[14px] max-w-[280px] truncate my-3">
-      <Link href={`/category/${fileTree.path}`} className="pl-0">
+      <Link href={`/${fileTree.path}`} className="pl-0">
         {fileTree.name[language]}
       </Link>
     </li>
   );
 };
 
-const ContainerTW = tw.header`
+interface ContainerProps {
+  isFixed: boolean;
+}
+
+const ContainerTW = tw.header<ContainerProps>`
   w-screen
   h-fit
   px-[20px]
   sm:hidden
-  fixed
-left-0
-top-0
-z-50
+  ${(p) => p.isFixed && 'fixed left-0 top-0 z-50'}
 `;
 
 interface TopTWProps {

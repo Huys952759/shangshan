@@ -7,10 +7,12 @@ import Footer from '../footer';
 
 interface Props {
   title: string;
+  isFixedHeader?: boolean;
   children: ReactNode;
 }
 export default function PageContainer({
   title = 'shangshan',
+  isFixedHeader = false,
   children,
 }: Props) {
   const [language] = useStore.language();
@@ -29,7 +31,7 @@ export default function PageContainer({
         />
       </Head>
       <ContainerTW>
-        <Header />
+        <Header isFixed={isFixedHeader} />
         <MainTW>{children}</MainTW>
         <Footer></Footer>
       </ContainerTW>

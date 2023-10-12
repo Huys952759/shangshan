@@ -50,7 +50,7 @@ export default function MobileHeader({ isFixed = false }) {
           </label>
           <ul
             tabIndex={0}
-            className="dropdown-content z-[1] bg-white menu p-2 shadow rounded-box w-52"
+            className="dropdown-content z-[1] bg-white menu py-2 px-6 shadow rounded-box w-40"
           >
             <li
               onClick={() => {

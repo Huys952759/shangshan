@@ -57,6 +57,9 @@ line-height: 36px;
     white-space: nowrap;
 }
 
+.cover-image-phone {
+    display: none;
+}
 .footer {
     display: flex;
     justify-content: center;
@@ -104,6 +107,7 @@ line-height: 36px;
         margin-top: 30px;
         font-size: 16px;
         padding: 20px;
+        margin-bottom: 10px;
     }
 
     .contact-detail {
@@ -140,9 +144,35 @@ line-height: 36px;
 
     .cover-image {
         width: 100%;
+        height: 450px;
         position: relative;
         box-sizing: border-box;
         margin-left: 0px;
     } 
 
+    .cover-image img {
+        height: 100%;
+    }
+
+    .image-title {
+        background: linear-gradient(90deg, rgba(0,0,0,0.22) 0%, rgba(0,0,0,0) 100%);
+        font-size: 30px;
+    }
+
+    .large-title {
+        width: fit-content;
+        font-size: 30px;
+    }
+
+    .small-title {
+        font-size: 20px;
+    }
+
+    .cover-image-pc {
+        display: none;
+    }
+
+    .cover-image-phone {
+        display: block;
+    }
 }

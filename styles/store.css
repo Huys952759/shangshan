@@ -62,7 +62,10 @@
 
     .store-banner {
         width: 100vw;
-        
+    }
+
+    .store-address {
+        padding: 20px;
     }
     
 }

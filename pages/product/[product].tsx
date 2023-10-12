@@ -62,6 +62,51 @@ export default function HomePge({ product }) {
           )}
         </InfoGroupTW>
       </ProductContainerTW>
+      <MobileContainerTW>
+        <SKUST>SKU: {product.id}</SKUST>
+        <FullImageItemTW>
+          <Image
+            width={5128}
+            height={7689}
+            alt=""
+            src={activeColorInfo.images[0]}
+            className="rounded-sm"
+          />
+        </FullImageItemTW>
+        <NameST>{product.name[language]}</NameST>
+        {!product.price.hidden && (
+          <PriceST>
+            <span>{language === 'English' ? '$' : '￥'}</span>
+            <span>{product.price[language]}</span>
+          </PriceST>
+        )}
+        <ColorContainerTW>
+          {product.colors.map((color) => (
+            <ImageItemTW onClick={() => setActiveColorInfo(color)}>
+              <Image width={500} height={500} alt="" src={color.colorImage} />
+            </ImageItemTW>
+          ))}
+        </ColorContainerTW>
+        <NameST>{PageText.material[language]}</NameST>
+        <IntroductionST>{product.materials[language]}</IntroductionST>
+        <NameST>{PageText.description[language]}</NameST>
+        <IntroductionST>{product.description[language]}</IntroductionST>
+        {product.maintenance[language] && (
+          <>
+            <NameST style={{ marginTop: 0 }}>
+              {PageText.maintenance[language]}
+            </NameST>
+            <IntroductionST>{product.maintenance[language]}</IntroductionST>
+          </>
+        )}
+        <ImageGroupTW>
+          {activeColorInfo.images.slice(1).map((image) => (
+            <HalfImageItemTW>
+              <Image width={5128} height={7689} alt="" src={image} />
+            </HalfImageItemTW>
+          ))}
+        </ImageGroupTW>
+      </MobileContainerTW>
     </PageContainer>
   );
 }
@@ -71,15 +116,23 @@ const ProductContainerSC = styled.div``;
 const ProductContainerTW = tw(ProductContainerSC)`
     pt-6
     px-[30px]
-    flex
+    hidden
+    sm:flex
+`;
+
+const MobileContainerTW = tw(ProductContainerSC)`
+    pt-6
+    px-[20px]
+    sm:hidden
 `;
 
 const ImageGroupTW = tw.div`
-    w-1/2
+    w-full
     flex
     justify-between
     flex-wrap
     shrink-0
+    sm:w-1/2
 `;
 
 const FullImageItemTW = tw.div`
@@ -95,7 +148,6 @@ const HalfImageItemTW = tw.div`
 const InfoGroupTW = tw.div`
 w-half
 ml-20
-ml-20
 
 `;
 
@@ -105,23 +157,25 @@ const SKUSC = styled('div')`
 
 const SKUST = tw(SKUSC)`
     text-sm
+    mb-5
 `;
 
-const NameSC = styled.div`
-  font-size: 28px;
-  margin-top: 60px;
-`;
-
-const NameST = tw(NameSC)`
+const NameST = tw.div`
     text-black
+    mt-5
+    text-[18px]
+    font-semibold
+    sm:mt-14
+    sm:text-[28px]
 `;
 
 const PriceSC = styled.div`
   font-size: 18px;
-  margin-top: 30px;
 `;
 
 const PriceST = tw(PriceSC)`
+mt-5
+sm:mt-[30px]
 text-black
 `;
 
@@ -136,15 +190,12 @@ max-w-xl
 const ColorContainerSC = styled('div')``;
 
 const ColorContainerTW = tw(ColorContainerSC)`
-    mt-10
+    mt-5
     flex
+    sm:mt-10
 `;
 
 const ImageItemSC = styled('div')`
-  width: 78px;
-  height: 78px;
-  margin-right: 20px;
-
   img {
     width: 100%;
     height: 100%;
@@ -154,7 +205,11 @@ const ImageItemSC = styled('div')`
 `;
 
 const ImageItemTW = tw(ImageItemSC)`
-
+  w-10
+  h-10
+  mr-5
+  sm:w-[78px]
+  sm:h-[78px]
 `;
 
 export const getStaticProps = async ({ params }) => {

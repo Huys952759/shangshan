@@ -39,6 +39,8 @@ module.exports = {
     '@typescript-eslint/no-var-requires': 'off',
     'import/prefer-default-export': 'off',
     '@typescript-eslint/no-use-before-define': 'off',
+    'jsx-a11y/click-events-have-key-events': 'off',
+    'jsx-a11y/no-noninteractive-element-interactions': 'off',
     'import/no-extraneous-dependencies': 'off',
     'import/no-unresolved': 'off',
     'import/extensions': 'off',

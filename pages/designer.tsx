@@ -7,8 +7,8 @@ export default function Home() {
   const [language] = useStore.language();
 
   return (
-    <PageContainer title={PageText.about[language]}>
-      <ContentTW>
+    <PageContainer title={PageText['designer.name'][language]}>
+      <PCContentTW>
         <div className="flex-1">
           <img src="/designer.png" alt="" className="w-full h-auto" />
         </div>
@@ -20,14 +20,34 @@ export default function Home() {
             {PageText['designer.introduction'][language]}
           </div>
         </div>
-      </ContentTW>
+      </PCContentTW>
+      <MobileContentTW>
+        <div>
+          <img src="/designer.png" alt="" className="w-full h-auto" />
+        </div>
+        <div className="flex justify-center flex-col pb-10">
+          <div className="text-[26px] font-bold mb-5">
+            {PageText['designer.name'][language]}
+          </div>
+          <div className="max-w-[600px]">
+            {PageText['designer.introduction'][language]}
+          </div>
+        </div>
+      </MobileContentTW>
     </PageContainer>
   );
 }
 
-const ContentTW = tw.div`
+const PCContentTW = tw.div`
     pt-6
     px-[30px]
     text-black
-    flex
+    hidden
+    sm:flex
+`;
+
+const MobileContentTW = tw.div`
+px-[20px]
+text-black
+sm:hidden
 `;

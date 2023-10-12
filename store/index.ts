@@ -7,7 +7,7 @@ const initState: {
   language: LanguageEnum;
   pageText: PageTextType;
 } = {
-  language: LanguageEnum.Chinese,
+  language: LanguageEnum.English,
   pageText: PageText,
 };
 

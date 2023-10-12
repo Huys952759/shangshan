@@ -21,6 +21,8 @@ export default function MobileHeader({ isFixed = false }) {
   );
   const [open, setOpen] = useState(false);
 
+  console.log(language);
+
   return (
     <ContainerTW isFixed={isFixed}>
       <TopTW visible={!open}>
@@ -42,9 +44,52 @@ export default function MobileHeader({ isFixed = false }) {
             className="h-6 w-auto ml-auto mr-auto"
           />
         </Link>
-        <button className="btn btn-ghost p-0">
-          <LanguageIcon className="w-5 h-5" />
-        </button>
+        <div className="dropdown dropdown-end">
+          <label tabIndex={0} className="btn btn-ghost p-0">
+            <LanguageIcon className="w-5 h-5" />
+          </label>
+          <ul
+            tabIndex={0}
+            className="dropdown-content z-[1] bg-white menu p-2 shadow rounded-box w-52"
+          >
+            <li
+              onClick={() => {
+                updateLanguage((draftRef) => {
+                  draftRef.current = LanguageEnum.English;
+                });
+              }}
+              className={
+                language === LanguageEnum.English ? 'font-bold py-2' : 'py-2'
+              }
+            >
+              ENGLISH
+            </li>
+            <li
+              onClick={() => {
+                updateLanguage((draftRef) => {
+                  draftRef.current = LanguageEnum.Chinese;
+                });
+              }}
+              className={
+                language === LanguageEnum.Chinese ? 'font-bold py-2' : 'py-2'
+              }
+            >
+              中文
+            </li>
+            <li
+              onClick={() => {
+                updateLanguage((draftRef) => {
+                  draftRef.current = LanguageEnum.Arabic;
+                });
+              }}
+              className={
+                language === LanguageEnum.Arabic ? 'font-bold py-2' : 'py-2'
+              }
+            >
+              اللغة العربية
+            </li>
+          </ul>
+        </div>
       </TopTW>
       {open && (
         <OpenContentTW>

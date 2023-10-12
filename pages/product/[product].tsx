@@ -14,7 +14,7 @@ export default function HomePge({ product }) {
 
   return (
     <PageContainer title={product.name[language]}>
-      <ProductContainerTW>
+      <PCContainerTW>
         <ImageGroupTW>
           <FullImageItemTW>
             <Image
@@ -61,7 +61,7 @@ export default function HomePge({ product }) {
             </>
           )}
         </InfoGroupTW>
-      </ProductContainerTW>
+      </PCContainerTW>
       <MobileContainerTW>
         <SKUST>SKU: {product.id}</SKUST>
         <FullImageItemTW>
@@ -113,7 +113,7 @@ export default function HomePge({ product }) {
 
 const ProductContainerSC = styled.div``;
 
-const ProductContainerTW = tw(ProductContainerSC)`
+const PCContainerTW = tw(ProductContainerSC)`
     pt-6
     px-[30px]
     hidden

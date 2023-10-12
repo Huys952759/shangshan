@@ -29,7 +29,7 @@ export default function Home() {
           </div>
         </div>
         <div className="slogan-container">
-          <div className="slogan">{PageText.slogan[language]}</div>
+          <div className={`slogan ${language}`} >{PageText.slogan[language]}</div>
         </div>
       </div>
     </PageContainer>

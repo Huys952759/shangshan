@@ -125,12 +125,14 @@ const FileTree = ({ fileTree }) => {
 };
 
 const ContainerTW = tw.header`
-  w-full
+  w-screen
   h-fit
-  bg-white
   px-[20px]
   sm:hidden
-  relative
+  fixed
+left-0
+top-0
+z-50
 `;
 
 interface TopTWProps {

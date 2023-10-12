@@ -7,7 +7,7 @@ export default function Home() {
   const [language] = useStore.language();
   return (
     <PageContainer title="shanshan" isFixedHeader>
-      <div className="pt-6">
+      <div className="sm:pt-6">
         <div className="cover-image">
           <Image
             src="/cover-image.jpg"

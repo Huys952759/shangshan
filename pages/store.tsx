@@ -27,16 +27,16 @@ export default function Honor() {
         <PageContainer title="shanshan">
             <div className='store-image-container'>
                 <div className='store-banner'>
-                    <Image fill src='/Banner.jpg' alt=''></Image>
+                    <Image width={1920} height={971} src='/Banner.jpg' alt=''></Image>
                 </div>
                 <div className='store-image-item'>
-                    <Image width={300} height={300} src='/G-1.jpg' alt=''></Image>
-                    <Image width={300} height={300} src='/G-2.jpg' alt=''></Image>
-                    <Image width={300} height={300} src='/G-3.jpg' alt=''></Image>
+                    <Image width={640} height={379} src='/G-1.jpg' alt=''></Image>
+                    <Image width={640} height={379} src='/G-2.jpg' alt=''></Image>
+                    <Image width={640} height={379} src='/G-3.jpg' alt=''></Image>
                 </div>
                 <div className='store-address'>
                     <div className='store-address-label'>{STORE_ADDRESS_LABEL[language]}</div>
-                    <div>{STORE_ADDRESS.map(item => (<div>{item[language]}</div>))}</div>
+                    <div>{STORE_ADDRESS.map(item => (<div key={item.English}>{item[language]}</div>))}</div>
 
                 </div>
             </div>

@@ -144,7 +144,7 @@ export const HeaderConfig: HeaderElementType[] = [
       Chinese: '**2024SS “溯源”系列** 回溯自然 探寻本归',
       Arabic: '',
     },
-    path: 'show/traceability',
+    path: 'show/2024SS',
   },
   {
     name: {

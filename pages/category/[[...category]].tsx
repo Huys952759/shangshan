@@ -10,6 +10,7 @@ import { PageText } from '@/PageText';
 
 export default function HomePge({ products, category }) {
   const [language] = useStore.language();
+  console.log(products);
 
   return (
     <PageContainer

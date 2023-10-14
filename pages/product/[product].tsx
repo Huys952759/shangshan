@@ -33,14 +33,15 @@ export default function HomePge({ product }) {
         <InfoGroupTW>
           <SKUST>SKU: {product.id}</SKUST>
           <NameST>{product.name[language]}</NameST>
-          {!product.price.hidden && (
-            <PriceST>
-              <span>{language === 'English' ? '$' : '￥'}</span>
-              <span>{product.price[language]}</span>
-            </PriceST>
-          )}
+          {!product.price.hidden &&
+            product.price && (
+              <PriceST>
+                <span>{language === 'English' ? '$' : '￥'}</span>
+                <span>{product.price[language]}</span>
+              </PriceST>,
+            )}
           <ColorContainerTW>
-            {product.colors.map((color) => (
+            {product.colors.filter(color => color.colorImage).map((color) => (
               <ImageItemTW onClick={() => setActiveColorInfo(color)}>
                 <Image width={500} height={500} alt="" src={color.colorImage} />
               </ImageItemTW>
@@ -74,18 +75,20 @@ export default function HomePge({ product }) {
           />
         </FullImageItemTW>
         <NameST>{product.name[language]}</NameST>
-        {!product.price.hidden && (
+        {!product.price.hidden && product.price && (
           <PriceST>
             <span>{language === 'English' ? '$' : '￥'}</span>
             <span>{product.price[language]}</span>
           </PriceST>
         )}
         <ColorContainerTW>
-          {product.colors.map((color) => (
-            <ImageItemTW onClick={() => setActiveColorInfo(color)}>
-              <Image width={500} height={500} alt="" src={color.colorImage} />
-            </ImageItemTW>
-          ))}
+          {product.colors
+            .filter((color) => color.colorImage)
+            .map((color) => (
+              <ImageItemTW onClick={() => setActiveColorInfo(color)}>
+                <Image width={500} height={500} alt="" src={color.colorImage} />
+              </ImageItemTW>
+            ))}
         </ColorContainerTW>
         <NameST>{PageText.material[language]}</NameST>
         <IntroductionST>{product.materials[language]}</IntroductionST>

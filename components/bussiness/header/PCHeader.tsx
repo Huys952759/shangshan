@@ -225,16 +225,18 @@ const ShowContent = ({ items }) => {
           <li className="cursor-pointer">
             <ul>
               {year.map((item) => (
-                <li className="my-[50px]">
-                  <div className="font-semibold">
-                    {
-                      item.name[language]
-                        .match(regex)
-                        .map((match) => match.replace(/\*\*/g, ''))[0]
-                    }
-                  </div>
-                  <div>{item.name[language].match(regex)[1]}</div>
-                </li>
+                <Link key={item.path} href={`/category/${item.path}`}>
+                  <li className="my-[50px]">
+                    <div className="font-semibold">
+                      {
+                        item.name[language]
+                          .match(regex)
+                          .map((match) => match.replace(/\*\*/g, ''))[0]
+                      }
+                    </div>
+                    <div>{item.name[language].match(regex)[1]}</div>
+                  </li>
+                </Link>
               ))}
             </ul>
           </li>

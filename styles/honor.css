@@ -31,3 +31,12 @@
     color: #000000;
     line-height: 20px;
 }
+
+@media (max-width: 768px) {
+    .honor-image-item {
+        margin: 10px 20px;
+    }
+    .honor-image-container  {
+        justify-content: center;
+    }
+}

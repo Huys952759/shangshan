@@ -9,13 +9,13 @@ export default function Footer() {
     <footer className="footer">
       <div className="contact-detail">
         <div className='contact-detail-label'>
-        {pageText.contact[language]}
+        {pageText.contact[language]} :&nbsp;
         </div>
         <div className='contact-detail-email'> VANSUNSUN@outlook.com</div>
       </div>
       <div className='footer-divider'></div>
       <div className="follow-us">
-        <div className='follow-us-label'>{pageText.follow[language]}</div>
+        <div className='follow-us-label'>{pageText.follow[language]} :&nbsp;</div>
         <div className="icon-container">
           <Image
             src="/Instagram.png"

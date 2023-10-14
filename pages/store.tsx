@@ -36,7 +36,7 @@ export default function Honor() {
                 </div>
                 <div className='store-address'>
                     <div className='store-address-label'>{STORE_ADDRESS_LABEL[language]}</div>
-                    <div>{STORE_ADDRESS.map(item => (<div key={item.English}>{item[language]}</div>))}</div>
+                    <div>{STORE_ADDRESS.map(item => (<div key={item.English} className='store-address-name'>{item[language]}</div>))}</div>
 
                 </div>
             </div>

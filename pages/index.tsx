@@ -10,10 +10,18 @@ export default function Home() {
       <div className="sm:pt-6">
         <div className="cover-image">
           <Image
+            className='cover-image-pc'
             src="/cover-image.jpg"
             alt=""
             width={1920}
             height={1080}
+          ></Image>
+           <Image
+            className='cover-image-phone'
+            src="/cover-image-phone.jpg"
+            alt=""
+            width={640}
+            height={954}
           ></Image>
           <div className="image-title">
             <div className="large-title">Spring / Summer 2024</div>
@@ -21,7 +29,7 @@ export default function Home() {
           </div>
         </div>
         <div className="slogan-container">
-          <div className="slogan">{PageText.slogan[language]}</div>
+          <div className={`slogan ${language}`} >{PageText.slogan[language]}</div>
         </div>
       </div>
     </PageContainer>

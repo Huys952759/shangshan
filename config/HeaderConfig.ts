@@ -152,7 +152,7 @@ export const HeaderConfig: HeaderElementType[] = [
       Chinese: '**2023AW “聆听”系列**以轻简质感 构筑冬日的轮廓和肌理',
       Arabic: '',
     },
-    path: 'show/listen',
+    path: 'show/2023AW',
   },
   {
     name: {

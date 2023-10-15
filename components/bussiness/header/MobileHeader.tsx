@@ -21,8 +21,6 @@ export default function MobileHeader({ isFixed = false }) {
   );
   const [open, setOpen] = useState(false);
 
-  console.log(language);
-
   return (
     <ContainerTW isFixed={isFixed}>
       <TopTW visible={!open}>
@@ -115,7 +113,15 @@ export default function MobileHeader({ isFixed = false }) {
           <div className="divider"></div>
           <ul className="menu w-full p-0">
             {categotiesTree.children.map((child) => (
-              <FileTree fileTree={child} key={child.path} />
+              <FileTree
+                fileTree={child}
+                key={child.path}
+                onSelect={() => {
+                  console.log(111);
+
+                  setOpen(false);
+                }}
+              />
             ))}
           </ul>
         </OpenContentTW>
@@ -124,7 +130,7 @@ export default function MobileHeader({ isFixed = false }) {
   );
 }
 
-const FileTree = ({ fileTree }) => {
+const FileTree = ({ fileTree, onSelect }) => {
   const [language] = useStore.language();
   if (fileTree.children?.length)
     return (
@@ -135,7 +141,7 @@ const FileTree = ({ fileTree }) => {
           </summary>
           <ul>
             {fileTree.children.map((child) => (
-              <FileTree fileTree={child} key={child.path} />
+              <FileTree fileTree={child} key={child.path} onSelect={onSelect} />
             ))}
           </ul>
         </details>
@@ -144,7 +150,10 @@ const FileTree = ({ fileTree }) => {
 
   if (fileTree.path?.startsWith('new'))
     return (
-      <li className="font-extrabold text-[14px] max-w-[280px] truncate my-3">
+      <li
+        onClick={onSelect}
+        className="font-extrabold text-[14px] max-w-[280px] truncate my-3"
+      >
         <Link href={`/category/${fileTree.path}`} className="pl-0">
           {fileTree.name[language]}
         </Link>
@@ -153,7 +162,10 @@ const FileTree = ({ fileTree }) => {
 
   if (fileTree.path?.startsWith('show'))
     return (
-      <li className="font-extrabold text-[14px] max-w-[280px] truncate my-3">
+      <li
+        onClick={onSelect}
+        className="font-extrabold text-[14px] max-w-[280px] truncate my-3"
+      >
         <Link href={`/category/${fileTree.path}`} className="pl-0">
           {fileTree.name[language]}
         </Link>
@@ -161,7 +173,10 @@ const FileTree = ({ fileTree }) => {
     );
 
   return (
-    <li className="font-extrabold text-[14px] max-w-[280px] truncate my-3">
+    <li
+      onClick={onSelect}
+      className="font-extrabold text-[14px] max-w-[280px] truncate my-3"
+    >
       <Link href={`/${fileTree.path}`} className="pl-0">
         {fileTree.name[language]}
       </Link>

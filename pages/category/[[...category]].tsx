@@ -47,13 +47,14 @@ const ContentSC = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   grid-gap: 1rem;
-  justify-items: start;
 `;
 
 const ContentTW = tw(ContentSC)`
     pt-6
     px-[30px]
     text-black
+    justify-items-center
+    sm:justify-items-start
 `;
 
 const ProductItemSC = styled('div')`

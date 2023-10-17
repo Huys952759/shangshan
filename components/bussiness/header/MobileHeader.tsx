@@ -167,7 +167,18 @@ const FileTree = ({ fileTree, onSelect }) => {
         className="font-extrabold text-[14px] max-w-[280px] truncate my-3"
       >
         <Link href={`/category/${fileTree.path}`} className="pl-0">
-          {fileTree.name[language]}
+          <div>
+            <div>
+              {
+                fileTree.name[language]
+                  .match(regex)
+                  .map((match) => match.replace(/\*\*/g, ''))[0]
+              }
+            </div>
+            <div className="font-semibold mt-2">
+              {fileTree.name[language].match(regex)[1]}
+            </div>
+          </div>
         </Link>
       </li>
     );

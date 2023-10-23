@@ -160,7 +160,7 @@ export const HeaderConfig: HeaderElementType[] = [
       Chinese: '**2023SS “冀”系列**生命更迭 美是永恒 ',
       Arabic: '',
     },
-    path: 'show/ji',
+    path: 'show/2023SS',
   },
   {
     name: {
@@ -169,7 +169,7 @@ export const HeaderConfig: HeaderElementType[] = [
       Chinese: '**2022AW “生”系列**零距离感受生命的温度 ',
       Arabic: '',
     },
-    path: 'show/live',
+    path: 'show/2022AW',
   },
   {
     name: {
@@ -178,7 +178,7 @@ export const HeaderConfig: HeaderElementType[] = [
       Chinese: '**2022SS “翎”系列**“丝绸明珠”的喀什异域风情',
       Arabic: '',
     },
-    path: 'show/ling',
+    path: 'show/2022SS',
   },
   {
     name: {
@@ -186,7 +186,7 @@ export const HeaderConfig: HeaderElementType[] = [
       Chinese: '**2021AW “阿拉善”系列** 千年悠远的丝绸文明',
       Arabic: '',
     },
-    path: 'show/alashan',
+    path: 'show/2021AW',
   },
   {
     name: {
@@ -195,6 +195,6 @@ export const HeaderConfig: HeaderElementType[] = [
       Chinese: '**2021SS “倾城”系列**源自人与自然的共生',
       Arabic: '',
     },
-    path: 'show/stunning',
+    path: 'show/2021SS',
   },
 ];

@@ -140,8 +140,8 @@ export const HeaderConfig: HeaderElementType[] = [
   {
     name: {
       English:
-        '**2024SS”Traceability“Series**Go back to nature,explore the origin',
-      Chinese: '**2024SS “溯源”系列** 回溯自然 探寻本归',
+        '**2024SS"Traceability"Series**Go back to nature,explore the origin',
+      Chinese: '**2024SS "溯源"系列** 回溯自然 探寻本归',
       Arabic: '',
     },
     path: 'show/2024SS',
@@ -149,7 +149,7 @@ export const HeaderConfig: HeaderElementType[] = [
   {
     name: {
       English: `**2023AW"Listen"Series**Use light and simple texture to create winter silhouettes and textures`,
-      Chinese: '**2023AW “聆听”系列**以轻简质感 构筑冬日的轮廓和肌理',
+      Chinese: '**2023AW "聆听"系列**以轻简质感 构筑冬日的轮廓和肌理',
       Arabic: '',
     },
     path: 'show/2023AW',
@@ -157,7 +157,7 @@ export const HeaderConfig: HeaderElementType[] = [
   {
     name: {
       English: `**2023SS"Hope"Series**Life changes,beauty is eternal`,
-      Chinese: '**2023SS “冀”系列**生命更迭 美是永恒 ',
+      Chinese: '**2023SS "冀"系列**生命更迭 美是永恒 ',
       Arabic: '',
     },
     path: 'show/2023SS',
@@ -165,8 +165,8 @@ export const HeaderConfig: HeaderElementType[] = [
   {
     name: {
       English:
-        '**2022AW”Life“Series**Feel the temperature of life from zero distance',
-      Chinese: '**2022AW “生”系列**零距离感受生命的温度 ',
+        '**2022AW"Life"Series**Feel the temperature of life from zero distance',
+      Chinese: '**2022AW "生"系列**零距离感受生命的温度 ',
       Arabic: '',
     },
     path: 'show/2022AW',
@@ -174,16 +174,16 @@ export const HeaderConfig: HeaderElementType[] = [
   {
     name: {
       English:
-        '**2022SS“Feather”Series**“The exotic style of Kashgar with silk pearls',
-      Chinese: '**2022SS “翎”系列**“丝绸明珠”的喀什异域风情',
+        '**2022SS"Feather"Series**“The exotic style of Kashgar with silk pearls',
+      Chinese: '**2022SS "翎"系列**“丝绸明珠”的喀什异域风情',
       Arabic: '',
     },
     path: 'show/2022SS',
   },
   {
     name: {
-      English: '**2021AW”Alxa“Series**Thousands of years of silk civilization',
-      Chinese: '**2021AW “阿拉善”系列** 千年悠远的丝绸文明',
+      English: '**2021AW"Alxa"Series**Thousands of years of silk civilization',
+      Chinese: '**2021AW "阿拉善"系列** 千年悠远的丝绸文明',
       Arabic: '',
     },
     path: 'show/2021AW',
@@ -191,8 +191,8 @@ export const HeaderConfig: HeaderElementType[] = [
   {
     name: {
       English:
-        '**2021SS”Allure“Series**From the symbiosis between man and nature',
-      Chinese: '**2021SS “倾城”系列**源自人与自然的共生',
+        '**2021SS"Allure"Series**From the symbiosis between man and nature',
+      Chinese: '**2021SS "倾城"系列**源自人与自然的共生',
       Arabic: '',
     },
     path: 'show/2021SS',
